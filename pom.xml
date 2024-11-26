@@ -4,9 +4,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <name>TablistAPI</name>
-    <url>https://github.com/RefineDevelopment/TablistAPI</url>
-    <description>Most Modern and Support Friendly Tablist API</description>
+    <name>RefineTablistAPI</name>
+    <url>https://github.com/Schroddinger/RefineTablistAPI</url>
+    <description>Most Modern and Support Friendly Tablist API from RefineDevelopment</description>
 
     <organization>
         <name>Refine Development</name>
@@ -14,7 +14,7 @@
     </organization>
 
     <groupId>xyz.refinedev.api</groupId>
-    <artifactId>TablistAPI</artifactId>
+    <artifactId>RefineTablistAPI</artifactId>
     <version>2.3</version>
 
     <properties>
