@@ -41,6 +41,7 @@ public class Skin {
     public static final CachedSkin OPEN_LOCK_SKIN;
     public static final CachedSkin CLOSED_LOCK_SKIN;
     public static final CachedSkin DOLLAR_SKIN;
+    public static final CachedSkin PINK_SKIN;
 
     static {
         // Default skin
@@ -110,6 +111,12 @@ public class Skin {
         );
 
         DOLLAR_SKIN = new CachedSkin(
+                "dollar",
+                "ewogICJ0aW1lc3RhbXAiIDogMTYzNjk2OTYyMzEyNSwKICAicHJvZmlsZUlkIiA6ICJmMTYwZTMxMzJjYWM0YjRiOWM5OTk2NDQ1OGIxOWM0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb255S3VuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEwZWViODQ1YWM4MzMyNDMxNDIxZjEwN2Q2N2FiZmUyYWUwYmNhZGMzYmNhMzMwODA0ZWZmNGNiZWE0Y2I3YmUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+                "ICWC6ZLhXQOub8GNgU7ntQjNer2F3NOg6JnJFAtvkMWHrismQPZuMKdyrY/GQmzuKJc//BKrwZjGgmLYWtIm/dg9/6GBWunXb5nEBqfKEk9vuvikT8yd6SR4dTYpbeDVgwFXF5HyePgk5xlA91rWfOSkYaSrsu3FJD6ed7TicLUUdu6m79xTmDNxASJl2s9huwzqo8KKzE4Uc3L6RZPOxSLeykfozZS/Zxa0+UgmbWsuwtLYuqkUdRER8vWK3eHVGTiPbAV34wNuIdk4+gNAJWUPOs79bWWgndnoUfM93eJ4Ua2WkxHVAgltof4DxwnFfoDz+903FFFfwjNx5NzWrEfEqR/apOnG+sugtRWeQLz2LcvpEdj1Ati7KTz+E3yy/pDPYZQgiPY8galYlzgRE5c33G1gLIZ95Al15STjbe596Ct12Yx3MgZaO2oLmA4J+cu6o8BISVryaekubUaEY7Ez4x2b7sEaSyvWhUkLlnr00bLsEbruluo9HCkiULW2PuRBWGZu6jtki5U3qTuyy8T66+lWNpD2uDRTwMspjPVgIfnMs9Hd8tBBZegFn2KJqpHEnwDlIEJvb4O8rabyGJH0jMcAUmMd9YgTso15uo1pU9QIraAbmCdorkcR+OqSaH/8HtENmdoQaOPJj36jMRD3YFnJpstrtjBM28/Fa8c="
+        );
+
+        PINK_SKIN = new CachedSkin(
                 "dollar",
                 "ewogICJ0aW1lc3RhbXAiIDogMTYzNjk2OTYyMzEyNSwKICAicHJvZmlsZUlkIiA6ICJmMTYwZTMxMzJjYWM0YjRiOWM5OTk2NDQ1OGIxOWM0ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb255S3VuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEwZWViODQ1YWM4MzMyNDMxNDIxZjEwN2Q2N2FiZmUyYWUwYmNhZGMzYmNhMzMwODA0ZWZmNGNiZWE0Y2I3YmUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
                 "ICWC6ZLhXQOub8GNgU7ntQjNer2F3NOg6JnJFAtvkMWHrismQPZuMKdyrY/GQmzuKJc//BKrwZjGgmLYWtIm/dg9/6GBWunXb5nEBqfKEk9vuvikT8yd6SR4dTYpbeDVgwFXF5HyePgk5xlA91rWfOSkYaSrsu3FJD6ed7TicLUUdu6m79xTmDNxASJl2s9huwzqo8KKzE4Uc3L6RZPOxSLeykfozZS/Zxa0+UgmbWsuwtLYuqkUdRER8vWK3eHVGTiPbAV34wNuIdk4+gNAJWUPOs79bWWgndnoUfM93eJ4Ua2WkxHVAgltof4DxwnFfoDz+903FFFfwjNx5NzWrEfEqR/apOnG+sugtRWeQLz2LcvpEdj1Ati7KTz+E3yy/pDPYZQgiPY8galYlzgRE5c33G1gLIZ95Al15STjbe596Ct12Yx3MgZaO2oLmA4J+cu6o8BISVryaekubUaEY7Ez4x2b7sEaSyvWhUkLlnr00bLsEbruluo9HCkiULW2PuRBWGZu6jtki5U3qTuyy8T66+lWNpD2uDRTwMspjPVgIfnMs9Hd8tBBZegFn2KJqpHEnwDlIEJvb4O8rabyGJH0jMcAUmMd9YgTso15uo1pU9QIraAbmCdorkcR+OqSaH/8HtENmdoQaOPJj36jMRD3YFnJpstrtjBM28/Fa8c="
@@ -381,6 +388,7 @@ public class Skin {
         GENERAL_SKINS.put("OPEN_LOCK_SKIN", OPEN_LOCK_SKIN);
         GENERAL_SKINS.put("CLOSED_LOCK_SKIN", CLOSED_LOCK_SKIN);
         GENERAL_SKINS.put("DOLLAR_SKIN", DOLLAR_SKIN);
+        GENERAL_SKINS.put("PINK_SKIN", PINK_SKIN);
     }
 
     /**
